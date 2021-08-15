@@ -1,0 +1,10 @@
+
+virtualenv est un outil pour créer des environnements Python isolés.
+Installation du packet
+>pip install -U pip virtualenv 
+Creation d'un environnement virtuel
+>py -m venv env
+Activation de l'environnement virtuel
+>. .\env\Scripts\activate
+Installation du connecteur mysql-python
+>pip install mysql-connector-python
